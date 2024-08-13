@@ -40,6 +40,7 @@ Deploy the website to your preferred hosting platform. For example, you can depl
 1. Install Vercel CLI: `npm install -g vercel`
 2. Login to Vercel: `vercel login`
 3. Deploy the project: `vercel --prod`
+    or you can use AWS Amplify
 
 ## Feedback and Contributions
 
