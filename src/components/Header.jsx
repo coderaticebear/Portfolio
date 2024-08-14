@@ -181,7 +181,7 @@ function ModeToggle() {
   }
 
   function toggleMode() {
-    disableTransitionsTemporarily()
+    // disableTransitionsTemporarily()
 
     let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
     let isSystemDarkMode = darkModeMediaQuery.matches

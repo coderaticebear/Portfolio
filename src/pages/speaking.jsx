@@ -59,7 +59,7 @@ export default function Speaking() {
               cta="Completed"
             />
           </SpeakingSection>
-          <SpeakingSection title="Full Stack Web Developer/Team Lead at D'katia – Kerala, IN (2018 – 2021)">
+          <SpeakingSection title="Full Stack Web Developer/Team Lead at D'katia – Kerala, IN (2018)">
             <Appearance
               href=""
               title="Website Development and Team Collaboration"

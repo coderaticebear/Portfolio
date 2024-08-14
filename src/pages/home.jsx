@@ -198,10 +198,10 @@ function Resume() {
                 <time dateTime={role.start.dateTime ?? role.start}>
                   {role.start.label ?? role.start}
                 </time>{' '}
-                <span aria-hidden="true">—</span>{' '}
+                {/* <span aria-hidden="true">—</span>{' '}
                 <time dateTime={role.end.dateTime ?? role.end}>
                   {role.end.label ?? role.end}
-                </time>
+                </time> */}
               </dd>
             </dl>
           </li>
