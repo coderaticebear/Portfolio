@@ -3,30 +3,27 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import youphoria from '@/images/logos/YOUphoria.png'
-import orb from '@/images/logos/orb.gif'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoHeart from '@/images/logos/gwc.png'
+import logoBuyerFolio from '@/images/logos/buyerfolio.jpeg'
 
 const projects = [
   {
     name: 'Personal Portfolio',
     description:
-      "Developed with Next.js, React, and Tailwind CSS for optimal UI/UX. Utilizes the power of Amazon AWS, components from EasyUI and motion by Framer.",
+      'Developed with Next.js, React, and Tailwind CSS for optimal UI/UX. Utilizes the power of Amazon AWS, components from EasyUI and motion by Framer.',
     link: {
-      href: '#',
+      href: 'https://richu.xyz',
       label: 'Online',
     },
     logo: logoOpenShuttle,
   },
-  // {
-  //   name: 'OpenShuttle',
-  //   description:
-  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoOpenShuttle,
-  // },
+  {
+    name: 'BuyerFolio',
+    description:
+      'Developed a parallel calculation engine for the world’s first Financial DNA app in the real-estate industry. Applied Agile principles, and employed tools like React Native, Styled Components, MongoDB, Axios, and PayPal.',
+    link: { href: 'https://buyerfolio.ai/', label: 'Online' },
+    logo: logoBuyerFolio,
+  },
 ]
 
 function LinkIcon(props) {
@@ -54,16 +51,41 @@ export default function Projects() {
         title="Crafting Digital Experiences"
         intro={
           <>
-            <p>Explore my journey of innovation and achievement through a series of projects that reflect my expertise in full-stack development, data management, and AI. Each project is a testament to my ability to drive results and push the boundaries of technology</p>
-            <p className="mt-4">Diving deeper, I&apos;ve honed my skills across a broad spectrum of technologies:</p>
-            <ul className="list-disc pl-6 mt-2">
-              <li><strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript, Java, Python</li>
-              <li><strong>Frameworks:</strong> React, Next.js, Angular, Ionic, Tailwind CSS, React Native, Node.js, Express, jQuery</li>
-              <li><strong>Tools:</strong> Git, AWS, CI/CD</li>
-              <li><strong>Database/Management:</strong> MySQL, PostgreSQL, MongoDB, Firebase, CouchDB</li>
-              <li><strong>Deployment Platforms:</strong> AWS, Vercel, Netlify</li>
+            <p>
+              Explore my journey of innovation and achievement through a series
+              of projects that reflect my expertise in full-stack development,
+              data management, and AI. Each project is a testament to my ability
+              to drive results and push the boundaries of technology
+            </p>
+            <p className="mt-4">
+              Diving deeper, I&apos;ve honed my skills across a broad spectrum
+              of technologies:
+            </p>
+            <ul className="mt-2 list-disc pl-6">
+              <li>
+                <strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript,
+                Java, Python
+              </li>
+              <li>
+                <strong>Frameworks:</strong> React, Next.js, Angular, Ionic,
+                Tailwind CSS, React Native, Node.js, Express, jQuery
+              </li>
+              <li>
+                <strong>Tools:</strong> Git, AWS, CI/CD
+              </li>
+              <li>
+                <strong>Database/Management:</strong> MySQL, PostgreSQL,
+                MongoDB, Firebase, CouchDB
+              </li>
+              <li>
+                <strong>Deployment Platforms:</strong> AWS, Vercel, Netlify
+              </li>
             </ul>
-            <p className="mt-4">Embracing these <strong>TECHNICAL SKILLS</strong> has empowered me to create and contribute to projects that are not only functional but also cutting-edge.</p>
+            <p className="mt-4">
+              Embracing these <strong>TECHNICAL SKILLS</strong> has empowered me
+              to create and contribute to projects that are not only functional
+              but also cutting-edge.
+            </p>
           </>
         }
       >
